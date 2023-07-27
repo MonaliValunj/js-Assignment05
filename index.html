@@ -19,21 +19,21 @@
 </head>
 <body class="mt-2 ml-4">
     <h1>Employee Management System</h1>
-    <form id="empForm">
+    <form id="empForm" autocomplete="off">
         <label for="id" class="fs-3">8 Digit Employee Id:</label><br>
-        <input type="text" id="id" name="emp-Id" required maxlength="8" class="p-1 mt-1"><br>
+        <input type="text" id="id" name="emp-Id" required maxlength="8" autocomplete="off" class="p-1 mt-1" ><br>
 
         <label for="name">Name:</label><br>
-        <input type="text" id="name" name="emp-name" required class="p-1 mt-1"><br>
+        <input type="text" id="name" name="emp-name" required autocomplete="off" class="p-1 mt-1" ><br>
 
         <label for="ext">4 Digit Extension:</label><br>
-        <input type="text" id="ext" name="extension" required maxlength="4" class="p-2 mt-1"><br>
+        <input type="text" id="ext" name="extension" required maxlength="4" autocomplete="off" class="p-2 mt-1" ><br>
 
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="emp-email" required class="p-1 mt-1"><br>
+        <input type="email" id="email" name="emp-email" required  autocomplete="off" class="p-1 mt-1" ><br>
 
         <label for="dept">Department:</label> <br>
-        <select id="dept" name="department" required class="p-1 mt-1">
+        <select id="dept" name="department" required class="p-1 mt-1" autocomplete="off">
              <option value="Administrative">Administrative</option>
              <option value="Marketing">Engineering</option>
              <option value="Finance">Executive</option>

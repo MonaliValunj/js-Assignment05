@@ -1,9 +1,5 @@
-window.addEventListener('load', function(){
-    "use strict"
-    
-
-});
 //Global Variables
+
 let form;
 let empId;
 let empName; 
@@ -21,25 +17,14 @@ ext = $('ext');
 dept = $('dept');
 btnSubmit = $('btn-submit');
 
-// console.log(form);
-// console.log(empId);
-// console.log(empName);
-
-
-// function showResult(e){
-//     console.log("Id: "+ empId);
-//     console.log("Name: "+ empName);
-//     console.log("email: "+ email);
-//     console.log("Extension: "+ ext);
-//     e.preventDefault();
-// }
-
-form.addEventListener("onsubmit", function(e){
+form.addEventListener("submit", function(e){
     e.preventDefault();
 
     console.log("Id: "+ empId.value);
     console.log("Name: "+ empName.value);
     console.log("email: "+ email.value);
     console.log("Extension: "+ ext.value);
+    console.log("Department: "+ dept.value);
 
 });
+
